@@ -1,0 +1,13 @@
+{
+  "name": "json-server-vercel",
+  "version": "1.0.0",
+  "description": "Deploy JSON Server to Vercel",
+  "main": "api/server.js",
+  "scripts": {
+    "start": "json-server  --watch db.json --no-cors true -m ./node_modules/json-server-auth "
+  },
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "json-server-auth": "^2.1.0"
+  }
+}
